@@ -20,9 +20,9 @@
 # DOL配置步骤
 ### 1. 安装必要的环境
 1. 在Ubuntu界面下键入`control+alt+T`打开终端
-2. `$ sudo apt-get update` 获取更新
+2. `$ sudo apt-get update` 获取更新   
     <img src="img/0.png" width = "500" height = "300" alt="图片名称" align=center />     
-
+ 
     看到如上图所示的界面时，表示成功，否则需要进行换源处理，换源的过程可以参考[Ubuntu换源](http://www.linuxidc.com/Linux/2014-04/100476.htm)。 如果还是update失败可以参考[ubuntu apt-get update失败解决方法](http://blog.sina.com.cn/s/blog_afeac1330101bm2c.html)
 3. `$ sudo apt-get install ant` 安装ant
 4. `$ sudo apt-get install openjdk-7-jdk` 安装openjdk
